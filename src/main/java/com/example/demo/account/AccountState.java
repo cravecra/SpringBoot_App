@@ -1,5 +1,9 @@
 package com.example.demo.account;
 
+//This class is only used for update visualization 
+//Every interaction with the Account class will respond with the User affected
+//and the state field with the change ex. "Deleted, Added, Previous, New"
+
 public class AccountState {
 
 	private String id;

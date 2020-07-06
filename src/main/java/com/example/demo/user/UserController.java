@@ -11,6 +11,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.exception.ApiRequestException;
 
+// User Controller used to execute GET, POST, PUT, DELETE Methods throw API
+// All Methods has their respective try catch for error control
+
+//There are two Methods for get Users, to visualize a simple form of the users from ./users
+//And Second the full view with its corresponding accounts from /usersfull
+
 @RestController
 public class UserController {
 	private String handledException = "Handled Exception Occurred: ";

@@ -1,5 +1,8 @@
 package com.example.demo.user;
 
+// This class is only used for simple visualization 
+// User without accounts
+
 public class SimpleUser {
 
 	private String id;

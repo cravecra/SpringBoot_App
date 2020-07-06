@@ -2,6 +2,10 @@ package com.example.demo.user;
 
 import java.util.List;
 
+// This class is only used for update visualization 
+// Every interaction with the user class will respond with the User affected
+// and the state field with the change ex. "Deleted, Added, Previous, New"
+
 import com.example.demo.account.Account;
 
 public class UserState {

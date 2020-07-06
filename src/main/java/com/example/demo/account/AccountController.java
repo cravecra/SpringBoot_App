@@ -11,6 +11,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.exception.ApiRequestException;
 
+// Account Controller used to execute GET, POST, PUT, DELETE Methods throw API
+// All Methods has their respective try catch for error control
+
 @RestController
 public class AccountController {
 	private String handledException = "Handled Exception Occurred: ";

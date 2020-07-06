@@ -4,6 +4,8 @@ import java.time.ZonedDateTime;
 
 import org.springframework.http.HttpStatus;
 
+// ApiException class for exceptions retrieved with JSON format
+
 public class ApiException{
 	private final String message;
 	private final Throwable throwable;
