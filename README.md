@@ -7,13 +7,15 @@ Write a spring-boot application with a REST controller, which expose a Swagger A
 The application needs to expose the following APIs:
 
 - User List (UserId, Name, AccountsList)
-- Account List (AccountId, AccountName, AccauntCurrency )
+- Account List (AccountId, AccountName, AccountCurrency )
 - Read item details (by item number)
 - Add Account to User
 - Delete an Account from UserAccountsList
 - Data should be persisted on H2 DB using JPA.
 - Need to pack and run the application from docker.
 - Need to send a link to GitHub for source and docker hub for docker image
+
+<h5>I decided to go a little further and implement the 4 common methods for Users and Accounts GET, POST, PUT, DELETE aswell as other details</h5>
 
 <h2>Preparation</h2>
 
